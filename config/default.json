@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://rkritchat:055090323@contactkeeper-pis16.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://rkritchat:055090323@contactkeeper-pis16.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
