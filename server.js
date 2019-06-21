@@ -1,8 +1,9 @@
 const express = require('express')
+const connectDb = require('./config/db')
 
 const app = express()
-
 const PORT = process.env.PORT || 5000
+connectDb()
 
 app.get('/', (req, res) => {
   res.json({ msg: 'welcome to the ContactKeeper API' })
